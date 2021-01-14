@@ -32,7 +32,7 @@ public class Group extends BaseIdentify{
     public Group(){
     }
 
-    //все конструкторы, геттеры и сеттеры проверить!!!!!!! ДОПИСАТЬ ИХ
+    
     public Group(Mountain mount, Boolean status, LocalDate date, int duration) {
 
         setMount(mount);
@@ -41,7 +41,7 @@ public class Group extends BaseIdentify{
         setDuration(duration);
     }
 
-    //добавить альпиниста в группу если возможно
+   
     public void addClimber(Climber newClimber)
     {
         if(status==false || newClimber==null)
